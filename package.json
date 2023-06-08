@@ -1,0 +1,14 @@
+{
+  "name": "makedynamic",
+  "version": "0.0.2",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jubewe",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "fs": "^0.0.1-security"
+  }
+}

@@ -1,0 +1,12 @@
+Usage: 
+    node (this dir) index.js (<directory>) <arguments>
+
+<arguments>:
+Syntax: <commands (+ aliases, seperated by ;)> <argument name [number of following arguments[?: optional]]>
+e.g.    --test  <something[0]> 
+=> "test"=argument[0]
+
+    -D; -d; --directory         <directory[0[? if directory is defined]]>
+    -sf; --skipfile             <filename to skip checking>
+    -sd; --skipdir              <directory names to skip checking>
+    -dry; --dry-run; --dryrun
